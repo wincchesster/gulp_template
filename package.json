@@ -1,0 +1,19 @@
+{
+  "name": "gulp",
+  "version": "1.0.0",
+  "description": "gulp-template-build",
+  "main": "gulpfile.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "MARKER",
+  "license": "ISC",
+  "devDependencies": {
+    "del": "^7.0.0",
+    "gulp": "^4.0.2"
+  },
+  "dependencies": {
+    "gulp-cli": "^2.3.0"
+  }
+}
