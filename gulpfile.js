@@ -1,14 +1,17 @@
 // Main module:
 import  gulp from "gulp";
-// Import paths:
+// Paths import:
 import { path } from "./gulp/config/path.js";
+// Plugins import:
+import { plugins } from "./gulp/config/plugins.js"
 
 
 
 // Transfer variables to global:
 global.app = {
     path: path,
-    gulp: gulp
+    gulp: gulp,
+    plugins: plugins
 }
 
 
