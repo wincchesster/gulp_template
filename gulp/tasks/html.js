@@ -14,7 +14,7 @@ export const html = () => {
     .pipe(fileinclude({
         prefix: '@@',
     }))
-    .pipe(app.plugins.replace(/@img\//g, '.img/'))
+    .pipe(app.plugins.replace(/@img\//g, './img/'))
     .pipe(webpHtmlNosvg())
     .pipe(versionNumber({
         'value': '%DT%',
