@@ -1,6 +1,15 @@
-body {
-    background: black;
-    color: white;
-    
+@import "reset";
 
-}
+body {
+    background-image: url(../img/back.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    color: white;
+    font-family:'Montserrat', sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+    
+  }
+  
